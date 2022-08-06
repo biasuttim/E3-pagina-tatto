@@ -7,11 +7,11 @@
     display: flex;
     justify-content: space-around;
     background-color: black;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     
   }
   .fondo-nav img{
-        padding-left: 50px;
+        padding-left: 70px;
   }
   .maquina{
         width: 50%;
@@ -24,8 +24,16 @@
     align-items: center;
     font-size: 30px;
 
-
-
+  }
+h1{
+  font-size: 50px;
+  padding-top:100px;
+  
+}
+  .portafolio{
+    background-color: #98d619;
+    height: 150vh;
+   
 
   }
   .section-class{
@@ -45,7 +53,9 @@
      
 
   }
-  
+  .section-sgv{
+      display: flex;
+  }
 
   a {
     text-decoration: none;
@@ -74,7 +84,7 @@
   }
   
   .scrolldown::before {
-    content: "";
+    content: "#contenido";
     position: absolute;
     bottom: 30px;
     left: 50%;
